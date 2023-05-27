@@ -1,0 +1,16 @@
+.fourth {
+  background: linear-gradient(to bottom, #ebeffc, #f6f5fe);
+}
+
+.fourthreviewbox {
+  position: relative;
+  height: 1000px;
+}
+
+@media (max-width: 430px) {
+  .fourthreviewbox {
+    overflow-x: auto;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+}

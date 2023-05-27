@@ -1,0 +1,88 @@
+.dowhat {
+  width: 586px;
+  height: 96px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+  text-align: center;
+  /* identical to box height */
+
+  color: #3b3b5d;
+  margin: 0px;
+}
+
+.dowhatdesc {
+  width: 552px;
+  height: 67px;
+  left: 444px;
+  top: 383px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.seehow {
+  background-color: #28cd88;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 207px;
+  height: 55px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+}
+
+.seehow:hover {
+  background-color: #1a8a5c;
+}
+.seehowtext {
+  font-size: 18px;
+  line-height: 22.5px;
+  color: white;
+  font-weight: 500;
+}
+
+.centermain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 190px;
+}
+
+@media (max-width: 430px) {
+  .centermain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #d9d9d903;
+    width: 100%;
+  }
+
+  .dowhat {
+    width: 80%;
+    font-size: 33px;
+    font-weight: 600;
+  }
+
+  .dowhatdesc {
+    font-size: 14px;
+    width: 90%;
+    margin-top: 0px;
+  }
+
+  .seehow {
+    width: 170px;
+    height: 45px;
+  }
+}

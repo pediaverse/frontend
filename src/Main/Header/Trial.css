@@ -1,0 +1,27 @@
+.trial {
+  padding-left: 24.5px;
+  padding-right: 24.5px;
+  padding-top: 10px;
+  padding-bottom: 13px;
+  border: 1px solid #3b3b5d;
+  border-radius: 20px;
+  height: 16px;
+}
+
+.textt {
+  height: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #3b3b5d;
+  font-weight: 400;
+  width: 69px;
+  margin: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media (max-width: 430px) {
+  .trial {
+    display: none;
+  }
+}

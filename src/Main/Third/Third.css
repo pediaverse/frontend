@@ -1,0 +1,46 @@
+.third {
+  background: linear-gradient(to bottom, #f0effa, #ebeffc);
+  padding-top: 100px;
+}
+
+.line {
+  border-color: "white";
+  border-style: solid;
+  height: 0px;
+  width: 332px;
+  border-width: 1.5px;
+  border-color: white;
+}
+
+.thirdmarker {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.thirdboxes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 24px;
+  padding-bottom: 120px;
+}
+
+.mobilethirdboxes {
+  display: none;
+}
+
+@media (max-width: 430px) {
+  .mobilethirdboxes {
+    display: block;
+  }
+
+  .thirdboxes {
+    display: none;
+  }
+  .thirdmarker {
+    display: none;
+  }
+}

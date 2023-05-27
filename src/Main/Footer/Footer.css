@@ -1,0 +1,60 @@
+.footermain {
+  background-color: #ebeffc;
+}
+
+.footermain2 {
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 156px;
+  padding-top: 60px;
+}
+
+.termsmain {
+  display: flex;
+  flex-direction: column;
+}
+
+.terms {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  cursor: pointer;
+}
+
+.footerheaddesc {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+.footerheadhead {
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.footerhead {
+  width: 480px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.footerhead2 {
+  display: none;
+}
+@media (max-width: 430px) {
+  .footerhead {
+    display: none;
+  }
+
+  .footerhead2 {
+    display: block;
+    text-align: center;
+  }
+
+  .terms {
+    text-align: center;
+  }
+}
