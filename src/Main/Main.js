@@ -6,6 +6,7 @@ import Second from "./Second/Second";
 import Third from "./Third/Third";
 import Fourth from "./Fourth/Fourth";
 import Footer from "./Footer/Footer";
+import Fifth from "./Fifth/Fifth";
 
 export default function Main() {
   return (
@@ -20,6 +21,7 @@ export default function Main() {
       <Second></Second>
       <Third></Third>
       <Fourth></Fourth>
+      <Fifth></Fifth>
       <Center back={true}></Center>
       <Footer></Footer>
     </div>

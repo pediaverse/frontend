@@ -8,10 +8,12 @@ export default function Second() {
       <Heading val={"What is Pediaverse?"}></Heading>
       <div className="secondbox">
         <p className="secondboxtext">
-          Lacinia mi sit in massa nisi id fermentum tincidunt neque. Integer
-          lacus sed amet massa pulvinar orci, hendrerit enim consequat.Lacinia
-          mi sit in massa nisi id fermentum tincidunt neque. Integer lacus sed
-          amet massa pulvinar orci, hendrerit enim consequat.
+          We are welcoming you to the new Era of Learning. “Learn from failures
+          “ No more Failures to learn. Our platform is dedicated to unlocking
+          and cultivating your child's talents right from the start. We
+          understand the importance of providing consistent guidance and support
+          to help your little one develop their skills and explore their full
+          potential.
         </p>
         <img className="rocketimage" src={rocket} alt="Rocket" />
       </div>

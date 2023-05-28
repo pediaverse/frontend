@@ -19,10 +19,7 @@ export default function Center({ back }) {
         <img src={threelines} alt="Three lines" className="threelines" />
       ) : null} */}
       <p className="dowhat">Do What You Love</p>
-      <p className="dowhatdesc">
-        Lectus velit sed at aliquam. Urna massa, aliquam mauris lobortis in
-        luctus iaculis suspendisse libero.
-      </p>
+      <p className="dowhatdesc">Transpire,Trigger,Thrive and Triumph.</p>
       <span className="seehow">
         <p className="seehowtext">See How</p>
       </span>
