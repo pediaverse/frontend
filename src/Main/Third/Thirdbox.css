@@ -21,5 +21,7 @@
     margin-left: auto;
     margin-right: auto;
     height: 241px;
+    width: 80%;
+    background-color: white;
   }
 }
