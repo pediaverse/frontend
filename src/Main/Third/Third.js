@@ -52,17 +52,17 @@ export default function Third() {
         <Thirdbox
           num="1"
           active={activeIndex + 1}
-          val="Lacinia mi sit in massa nisi id fermentum tincidunt neque. Integer lacus sed amet massa pulvinar orci, hendrerit enim c"
+          val=" We believe that every child possesses exceptional talents, and it is our responsibility to foster their growth and guide them towards a fulfilling future."
         ></Thirdbox>
         <Thirdbox
           num="2"
           active={activeIndex + 1}
-          val="Lacinia mi sit in massa nisi id fermentum tincidunt neque. Integer lacus sed amet massa pulvinar orci, hendrerit enim c"
+          val="With our specialized programs and expert mentors, we create an environment that encourages gradual and consistent skill development."
         ></Thirdbox>
         <Thirdbox
           num="3"
           active={activeIndex + 1}
-          val="Lacinia mi sit in massa nisi id fermentum tincidunt neque. Integer lacus sed amet massa pulvinar orci, hendrerit enim c"
+          val=" We offer a wide range of engaging activities, carefully designed to stimulate your child's creativity and problem-solving skills. We empower your child to explore various domains and discover their true passions."
         ></Thirdbox>
       </div>
       <div {...swipeHandlers} className="mobilethirdboxes">
@@ -84,7 +84,7 @@ export default function Third() {
             <Thirdbox
               num="1"
               active={activeIndex + 1}
-              val="Lacinia mi sit in massa nisi id fermentum tincidunt neque. Integer lacus sed amet massa pulvinar orci, hendrerit enim c"
+              val=" We believe that every child possesses exceptional talents, and it is our responsibility to foster their growth and guide them towards a fulfilling future."
             ></Thirdbox>
           </div>
           <div
@@ -104,7 +104,7 @@ export default function Third() {
             <Thirdbox
               num="2"
               active={activeIndex + 1}
-              val="Lacinia mi sit in massa nisi id fermentum tincidunt neque. Integer lacus sed amet massa pulvinar orci, hendrerit enim c"
+              val="With our specialized programs and expert mentors, we create an environment that encourages gradual and consistent skill development. We offer a wide range of engaging activities, carefully designed to stimulate your child's creativity, critical thinking, and problem-solving skills."
             ></Thirdbox>
           </div>
           <div
@@ -124,7 +124,7 @@ export default function Third() {
             <Thirdbox
               num="3"
               active={activeIndex + 1}
-              val="Lacinia mi sit in massa nisi id fermentum tincidunt neque. Integer lacus sed amet massa pulvinar orci, hendrerit enim c"
+              val="Through interactive learning experiences, we empower your child to explore various domains and discover their true passions."
             ></Thirdbox>
           </div>
         </div>

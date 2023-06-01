@@ -7,9 +7,10 @@ export default function Footer() {
         <div className="footerhead">
           <p className="footerheadhead">Pediaverse</p>
           <p className="footerheaddesc">
-            Pediaverse Diam sit elementum sed imperdiet vel eu mauris in. Et
-            tincidunt quam tristique nec gravida amet viverra. Urna sed
-            convallis fermentum etiam.
+            Join us on this exciting journey of unlocking your child's
+            potential. Together, we will uncover their innate skills, help them
+            develop gradually, and assist them in finding the perfect career
+            path that aligns with their true calling.
           </p>
         </div>
         <div className="termsmain">

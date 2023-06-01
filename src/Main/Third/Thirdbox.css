@@ -1,6 +1,6 @@
 .thirdbox {
-  width: 321px;
-  height: 291px;
+  width: 331px;
+  height: 321px;
   border-style: solid;
   border-width: 3px;
   display: flex;
@@ -12,7 +12,6 @@
 
 .thirdboxtext {
   width: 260px;
-  height: 150px;
   font-size: 20px;
   text-align: center;
 }
@@ -21,6 +20,6 @@
   .thirdbox {
     margin-left: auto;
     margin-right: auto;
-    height: 191px;
+    height: 241px;
   }
 }
