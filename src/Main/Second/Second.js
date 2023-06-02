@@ -13,7 +13,8 @@ export default function Second() {
           and cultivating your child's talents right from the start. We
           understand the importance of providing consistent guidance and support
           to help your little one develop their skills and explore their full
-          potential.
+          potential. Accompany your child on their journey towards finding their
+          true calling, based on their unique set of abilities.
         </p>
         <img className="rocketimage" src={rocket} alt="Rocket" />
       </div>

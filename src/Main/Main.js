@@ -20,7 +20,7 @@ export default function Main() {
       <Center back={false}></Center>
       <Second></Second>
       <Third></Third>
-      <Fourth></Fourth>
+      {/* <Fourth></Fourth> */}
       <Fifth></Fifth>
       <Center back={true}></Center>
       <Footer></Footer>
