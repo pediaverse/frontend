@@ -9,8 +9,20 @@
 
 @media (max-width: 430px) {
   .fourthreviewbox {
-    overflow-x: auto;
-    white-space: nowrap;
-    max-width: 100%;
+    overflow: auto;
+    width: 100%;
+  }
+
+  .marquee {
+    animation: marquee-slide 5s linear infinite;
+  }
+
+  @keyframes marquee-slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
   }
 }
