@@ -6,7 +6,7 @@ export default function Marker({ onClick, active, val }) {
       className="marker"
       style={
         String(active) === val
-          ? { background: "#f8f8f8", borderColor: "#72e6ff" }
+          ? { background: "#f8f8f8", borderColor: "#7DE8D3" }
           : { borderColor: "white" }
       }
       onClick={onClick}
@@ -14,7 +14,7 @@ export default function Marker({ onClick, active, val }) {
       <p
         className="markertext"
         style={
-          String(active) === val ? { color: "#72e6ff" } : { color: "white" }
+          String(active) === val ? { color: "#7DE8D3" } : { color: "white" }
         }
       >
         {val}

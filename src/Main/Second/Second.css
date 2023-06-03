@@ -70,10 +70,12 @@
   }
 
   .secondboxtext {
-    width: 90%;
+    width: 95%;
     height: auto;
     font-size: 14px;
     line-height: normal;
+    font-weight: 400;
+    line-height: 18px;
   }
   .rocketimage {
     position: absolute;

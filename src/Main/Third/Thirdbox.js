@@ -6,7 +6,7 @@ export default function Thirdbox({ num, active, val }) {
       className="thirdbox"
       style={
         num === String(active)
-          ? { borderColor: "#74E6E9" }
+          ? { borderColor: "#7DE8D3" }
           : { borderColor: "white" }
       }
     >
