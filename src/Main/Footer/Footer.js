@@ -13,10 +13,14 @@ export default function Footer() {
             path that aligns with their true calling.
           </p>
         </div>
+        <div>
+          <p className="contact">Contact</p>
+          <p className="bb">Mail: pediaverse8@gmail.com</p>
+          <p className="bb">Call: +91 9778250828</p>
+        </div>
         <div className="termsmain">
           <p className="footerhead2">Pediaverse</p>
           <span className="terms">Terms & Conditions</span>
-          <span className="terms">Contact Us</span>
           <span className="terms">Privacy Policy</span>
         </div>
       </div>
