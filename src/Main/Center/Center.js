@@ -15,11 +15,12 @@ export default function Center({ back }) {
           : null
       }
     >
-      {/* {back ? (
-        <img src={threelines} alt="Three lines" className="threelines" />
-      ) : null} */}
-      <p className="dowhat">Do What You Love</p>
-      <p className="dowhatdesc">Transpire,Trigger,Thrive and Triumph.</p>
+      {back ? (
+        <p className="dowhat">Do What You Love</p>
+      ) : (
+        <p className="dowhat">Learn What You Love</p>
+      )}
+      <p className="dowhatdesc">Transpire, Trigger, Thrive and Triumph.</p>
       <span className="seehow">
         <p className="seehowtext">See How</p>
       </span>
