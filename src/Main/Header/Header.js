@@ -7,8 +7,13 @@ import HeaderComp2 from "./HeaderComp2";
 import Trial2 from "./Trial2";
 import { useState } from "react";
 
+
+
 export default function Header() {
   const [headeractive, setHeaderactive] = useState(false);
+  const redirectToUrl = () => {
+  window.location.href = "https://forms.gle/NM3CtWdFQg2uxr7C6";
+}
   const works = () => {
     const section = document.getElementById("thirdsection");
     window.scrollTo({
@@ -43,7 +48,9 @@ export default function Header() {
         <div className="headercompflex">
           <HeaderComp val="About Us" onClick={about}></HeaderComp>
           <HeaderComp val="How it Works" onClick={works}></HeaderComp>
-          <HeaderComp val="Contact Us"></HeaderComp>
+          <HeaderComp 
+          onClick={redirectToUrl}
+          val="Contact Us"></HeaderComp>
           <Trial></Trial>
           <HamburgerButton onClick={mobilefunc}></HamburgerButton>
         </div>

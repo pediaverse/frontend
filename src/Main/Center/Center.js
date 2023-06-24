@@ -1,6 +1,11 @@
 import "./Center.css";
 // import threelines from "./threelines.svg";
 
+const redirectToUrl = () => {
+  window.location.href =
+    "https://drive.google.com/file/d/1acTjK899-QdrbgmzJVCSZ6LA_ncyoqWb/view?usp=sharing";
+}
+
 export default function Center({ back }) {
   return (
     <div
@@ -21,8 +26,11 @@ export default function Center({ back }) {
         <p className="dowhat">Learn What You Love</p>
       )}
       <p className="dowhatdesc">Transpire, Trigger, Thrive and Triumph.</p>
-      <span className="seehow">
-        <p className="seehowtext">See How</p>
+
+      <span className="seehow"
+        onClick={redirectToUrl}
+        >
+          <p className="seehowtext">See How</p>
       </span>
     </div>
   );
