@@ -1,7 +1,13 @@
-import Main from "./Main/Main";
+import About from "./Components/About/About";
+import Home from "./Components/Home/Home";
 
 function App() {
-  return <Main></Main>;
+  return(
+    <>
+      <Home/>
+      <About/>
+    </>
+  );
 }
 
 export default App;
