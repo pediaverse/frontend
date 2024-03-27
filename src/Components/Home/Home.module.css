@@ -1,6 +1,6 @@
 .home{
-    height: 679px;
-    /* height: 100svh; */
+    min-height: 679px;
+    height: 100svh;
     background-image: url('./../../../public/Assets/home-background.svg');
     background-repeat: no-repeat;
     background-position: center;
