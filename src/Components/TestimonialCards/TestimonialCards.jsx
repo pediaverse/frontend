@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './TestimonialCards.module.css'
 export default function TestimonialCards(props) {
-    console.log(props)
   return (
     <div key={props.id} className={styles['testimonial-card']} style={{width:`${props.width}`}}>
         <div className={styles['card-inner-container']}>
