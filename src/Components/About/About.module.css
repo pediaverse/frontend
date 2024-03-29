@@ -1,4 +1,24 @@
-.about{
-    height: 100vh;
-    background-color: #071F4D;
+.text-wrapper {
+  width: 50%;
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;    
+    letter-spacing: 0;
+    line-height: 30px;
+    text-align: justify;
+    margin-top: 150px;
 }
+
+.center-box{
+  display: flex;
+  justify-content: center;
+}
+.j {
+    height: 840px;
+    left: 999px;
+    object-fit: cover;
+    position: absolute;
+    top: 680px;
+    width: 817px;
+  }
