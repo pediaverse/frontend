@@ -2,15 +2,15 @@
     position: absolute;
     width:100%;
     top:0;
-    height: 100px;
+    height: 80px;
     background-color: rgba(7, 31, 77, 0.5);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .navbar-logo-container{
-    height:72px;
-    width: 232px;
+    height:50px;
+    width: 160px;
     margin-left: 50px;
 }
 .navbar-logo{
@@ -22,13 +22,13 @@
 }
 
 .navbar-free-trial{
-    height:68px;
-    width:162px;
-    border-radius:290px;
+    height:54px;
+    width:136px;
+    border-radius:100px;
     margin-right: 50px;
     background-color: #28CD88;
     color:#ffffff;
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;

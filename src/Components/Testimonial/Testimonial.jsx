@@ -6,7 +6,7 @@ import TestimonialCards from '../TestimonialCards/TestimonialCards'
 
 export default function Testimonial() {
     const arrOne = [
-        {
+        {   
             width: '420px',
             name: 'Mayank Gupta',
             user_id: '@mayank_71203',
@@ -21,21 +21,21 @@ export default function Testimonial() {
             testimonial: 'Thank you, Pediaverse, for making mindfulness accessible and enjoyable!"'
         },
         
-        {
+        {   
             width: '400px',
             name: 'Jennifer H.',
             user_id: '@jennifermhardin',
             user_img: './Assets/user1.png',
             testimonial: 'Does everyone else love Pediaverse as much as we do here? 😍'
         },
-        {
+        {   
             width: '350px',
             name: 'Razik',
             user_id: '@razik_m',
             user_img: './Assets/user5.png',
             testimonial: 'Love using Pediaverse to practice mindfulness! What a great way to start the day'
         },
-        {
+        {   
             width: '280px',
             name: 'Julissa R.',
             user_id: '@jd_rowell',
@@ -109,26 +109,30 @@ export default function Testimonial() {
         <div className={styles['testimonial-marquee-container']}>
             <Marquee direction='left' style={{marginBottom:'14px'}}>
                 {arrOne.map((ele,id)=>(
-                    <TestimonialCards 
-                        id = {id}
-                        width = {ele.width}
-                        name = {ele.name}
-                        user_id = {ele.user_id}
-                        user_img = {ele.user_img}
-                        testimonial = {ele.testimonial}
-                    />
+                    <div key={id}>
+                        <TestimonialCards 
+                            id = {id}
+                            width = {ele.width}
+                            name = {ele.name}
+                            user_id = {ele.user_id}
+                            user_img = {ele.user_img}
+                            testimonial = {ele.testimonial}
+                        />
+                    </div>
                 ))}
             </Marquee>
             <Marquee direction='right'>
                 {arrTwo.map((ele,id)=>(
-                    <TestimonialCards 
-                        id = {id}
-                        width = {ele.width}
-                        name = {ele.name}
-                        user_id = {ele.user_id}
-                        user_img = {ele.user_img}
-                        testimonial = {ele.testimonial}
-                    />
+                    <div key={id}>
+                        <TestimonialCards 
+                            id = {id}
+                            width = {ele.width}
+                            name = {ele.name}
+                            user_id = {ele.user_id}
+                            user_img = {ele.user_img}
+                            testimonial = {ele.testimonial}
+                        />
+                    </div>
                 ))}
             </Marquee>
         </div>

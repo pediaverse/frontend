@@ -1,7 +1,6 @@
 .testimonial{
     position: relative;
     min-height: 1000px;
-    /* height: 100svh; */
     background-color: #071F4D;
 }
 
@@ -12,15 +11,15 @@
 
 
 .testimonial-button{
-    height: 96px;
-    width: 280px;
+    height: 78px;
+    width: 240px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 100px;
     background-color: #28CD88;
     color: #ffffff;
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -29,7 +28,7 @@
     position: absolute;
     left:50%;
     transform: translate(-50%,0);
-    bottom:64px;
+    bottom:96px;
 }
 .testimonial-button:hover{
     cursor: pointer;
