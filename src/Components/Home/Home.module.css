@@ -48,9 +48,22 @@
     width: 900px;
     height: 350px;
     /* border: 1px solid white; */
-    /* height: 75%;
-    width: 75%; */
+    animation: foreground 0.5s linear;
+    /* animation-delay: 0.3s; */
 }
+
+@keyframes foreground{
+    0%{
+        transform: translate(-50%, 0) scale(1.2);
+        transform-origin: bottom center; 
+    }
+    100%{
+        transform: translate(-50%, 0) scale(1);
+        transform-origin: bottom center;
+    }
+}
+
+
 
 .home-foreground{
     position: absolute;
