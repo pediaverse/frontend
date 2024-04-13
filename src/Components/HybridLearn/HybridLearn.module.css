@@ -71,3 +71,47 @@
     height: 100%;
     width: 100%;
 }
+
+
+@media screen and (max-width: 600px){
+    .hybrid-learn{
+        height: max-content;
+        flex-direction:column;
+        align-items: left;
+        justify-content: left;
+        border: 1px solid white;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .hybrid-learn-left{
+        flex:0;
+        justify-content: left;
+        border: 1px solid white;
+    }
+
+    .hybrid-learn-left-container{
+        border: 1px solid white;
+        margin-inline: 12px;
+    }
+    .hybrid-learn-title{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .hybrid-learn-text{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    .hybrid-learn-right{
+        flex: 0;
+        border: 1px solid blueviolet;
+    }
+    .hybrid-hand-container{
+        position: relative;
+    }
+    .hybrid-learn-star-container{
+        display: none;
+    }
+}
