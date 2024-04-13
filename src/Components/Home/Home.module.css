@@ -81,6 +81,12 @@
         min-height: 0;
         height: 100svh;
     }
+    .home-main-heading{
+        width: 100vw;
+    }
+    .home-sub-heading{
+        width: 100vw;
+    }
     .home-foreground-container{
         width:100vw;
     }

@@ -58,16 +58,56 @@
 
 .adaptive-road-container{
     position:absolute;
-    left:-40%;
-    top:-5%;
-    height:988px;
-    width:1668px;
+    left:0%;
+    top:15%;
+    height:auto;
+    width:100vw;
     /* border: 1px solid white; */
 }
 
 .adaptive-road-img{
-    height:120%;
-    width: 140%;
+    height:100%;
+    width: 100%;
     /* border: 1px solid white; */
 
+}
+
+
+@media screen and (max-width: 710px) {
+    .adaptive-learn{
+        /* border: 1px solid yellow; */
+        height: max-content;
+    }
+    .adaptive-learn-main{
+        position: relative;
+        right:0;
+        top:0;
+        /* border:1px solid red; */
+        margin-inline: 12px;
+        margin-bottom: 20px;
+    }
+    .adaptive-learn-title{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .adaptive-learn-text{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    .adaptive-star-container{
+        display: none;
+    }
+    .adaptive-road-container{
+        width: 100vw;
+        height: auto;
+        /* border: 1px solid white; */
+        position: relative;
+        left:0;
+        top:0;
+    }
+    .adaptive-road-img{
+        height:100%;
+        width:100%;
+    }
 }

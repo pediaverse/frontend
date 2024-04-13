@@ -75,11 +75,11 @@
 
 @media screen and (max-width: 600px){
     .hybrid-learn{
-        height: max-content;
+        height: 100svh;
         flex-direction:column;
         align-items: left;
-        justify-content: left;
-        border: 1px solid white;
+        justify-content: center;
+        /* border: 1px solid white; */
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -87,11 +87,11 @@
     .hybrid-learn-left{
         flex:0;
         justify-content: left;
-        border: 1px solid white;
+        /* border: 1px solid white; */
     }
 
     .hybrid-learn-left-container{
-        border: 1px solid white;
+        /* border: 1px solid white; */
         margin-inline: 12px;
     }
     .hybrid-learn-title{
@@ -106,7 +106,7 @@
 
     .hybrid-learn-right{
         flex: 0;
-        border: 1px solid blueviolet;
+        /* border: 1px solid blueviolet; */
     }
     .hybrid-hand-container{
         position: relative;

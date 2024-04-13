@@ -64,13 +64,13 @@
         align-items: center;
     }
     .number-one-img-container {
-        height: 300px;
-        width: 300px;
+        height: 100vw;
+        width: 100vw;
     }
     #num1img {
-        width: 250px;
-        height: 250px;
-        margin: 25px;
+        height: 100%;
+        width: 100%;
+        /* margin: 25px; */
     }
     #num1contentdiv {
         width: 370px;
@@ -79,12 +79,12 @@
         left: 75px; */
         gap: 0px;
         opacity: 0px;
-        margin: 0 auto;
+        margin: 12px auto;
     }
     #num1content {
         font-family: 'Inter';
         font-size: 14px;
-        font-weight: 400;
+        font-weight: 500;
         line-height: 22.5px;
         text-align: center;
         color: #fff;
