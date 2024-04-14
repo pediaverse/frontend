@@ -76,7 +76,7 @@
 }
 
 /* mobile */
-@media screen and (max-width: 480px){
+@media screen and (max-width: 710px){
     .home{
         min-height: 0;
         height: 100svh;
