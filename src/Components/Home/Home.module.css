@@ -5,7 +5,6 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    /* overflow-x: hidden; */
 }
 .home-heading{
     position: absolute;
@@ -17,12 +16,13 @@
     justify-content: center;
     color: rgba(255,255,255,1);
 }
+.home-main-heading-mobile{
+    display: none;
+}
 
 .home-main-heading{
     font-size: 68px;
     width: 700;
-    /* line-height: 116.42px; */
-    /* font-family: Baloo Bhaijaan 2 */
     font-family: "Baloo Bhaijaan 2", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -33,7 +33,6 @@
     font-size: 32px;
     width: 700px;
     text-align: center;
-    /* font-style: inter */
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -48,9 +47,7 @@
     transform: translate(-50%,0);
     width: 900px;
     height: 350px;
-    /* border: 1px solid white; */
     animation: foreground 0.5s linear;
-    /* animation-delay: 0.3s; */
 }
 
 @keyframes foreground{
@@ -76,23 +73,63 @@
 }
 
 /* mobile */
-@media screen and (max-width: 710px){
+@media screen and (max-width: 480px){
     .home{
         min-height: 0;
         height: 100svh;
+        overflow-x: hidden;
     }
     .home-main-heading{
+        display: none;
+    }
+    .home-main-heading-mobile{
+        display: block;
+        font-size: 36px;
+        font-family: "Baloo Bhaijaan 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
         width: 100vw;
+        position: relative;
+    }
+    .home-main-heading-mobile-top{
+        display: flex;
+        justify-content:left;
+        margin-left: 12px;
+    }
+    .home-main-heading-mobile-bottom{
+        display: flex;
+        justify-content:right;
+        margin-right: 12px;
     }
     .home-sub-heading{
         width: 100vw;
+        margin-top:64px;
+        font-size: 18px;
     }
     .home-foreground-container{
-        width:100vw;
+        width:370px;
+        height:160px;
     }
     .home-foreground{
-        height: 100%;
-        width: 100%;
+        height: 120%;
+        width: 120%;
+    }
+}
+@media screen and (min-width: 481px) and (max-width:768px){
+    .home-main-heading{
+        font-size: 42px;
+    }
+    .home-foreground-container{
+        width: 100vw;
+    }
+}
+@media screen and (min-width:921px) and (max-width:1024px) {
+    .home-main-heading{
+        font-size: 56px;
+    }
+    .home-foreground-container{
+        width: 100vw;
     }
 }
 

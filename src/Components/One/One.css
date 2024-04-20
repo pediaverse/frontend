@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400..900&display=swap');
 
 #num1{
-    /* padding: 20px; */
     display: flex;
     flex-direction: column;
     background-color: #071F4D;
@@ -11,15 +10,10 @@
     height:auto;
     background-size: cover;
     overflow: hidden;
-    /* Top: 4251px;
-    Left:271px; */
-    /* padding-top: 32px; */
-    /* border: 1px solid white; */
 }
 .number-one-img-container{
     height:650px;
     width: 700px;
-    /* border: 1px solid white; */
 }
 #num1img{
     width: 100%;
@@ -42,7 +36,6 @@
 #spantxt{
     font-family: 'Inter';
     font-size:28px;
-    /* line-height: 6vw */
     font-weight: 800;
     text-align: center;
     color:#28CD88;
@@ -51,12 +44,10 @@
 
 
 
-@media only screen and (max-width: 710px) {
+@media screen and (max-width: 710px) {
     #num1 {
         width: 100%;
         height: auto;
-        /* top: 2423px; */
-        /* left: -69px; */
         gap: 0px;
         opacity: 0px;
         display: flex;
@@ -70,13 +61,10 @@
     #num1img {
         height: 100%;
         width: 100%;
-        /* margin: 25px; */
     }
     #num1contentdiv {
         width: 370px;
         height: auto;
-        /* top: 534px;
-        left: 75px; */
         gap: 0px;
         opacity: 0px;
         margin: 12px auto;

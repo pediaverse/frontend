@@ -13,6 +13,10 @@ export default function Home() {
           transition={{duration: 0.5}}
           className={styles['home-heading']}>
             <div className={styles['home-main-heading']}>Do what you love, Love what you do</div>
+            <div className={styles['home-main-heading-mobile']}>
+                <div className={styles['home-main-heading-mobile-top']}>Do what you love,</div>
+                <div className={styles['home-main-heading-mobile-bottom']}>Love what you do</div>
+            </div>
             <div className={styles['home-sub-heading']}>Discover and pursue your <span style={{color:'#28CD88'}}>passion</span> in life</div>
         </motion.div>
 

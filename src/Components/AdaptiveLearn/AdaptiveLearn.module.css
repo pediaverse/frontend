@@ -2,19 +2,15 @@
     position: relative;
     height:150svh;
     background-color: #071F4D;
-    /* border: 1px solid white; */
     padding-block: 72px;
     overflow: hidden;
 }
 
 .adaptive-learn-main{
     position: absolute;
-    /* height: 200px; */
     width: max-content;
-    /* border: 1px solid white; */
     right: 50px;
     top: 150px;
-    /* top: 50px; */
     color: #ffffff;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -36,7 +32,6 @@
     position: absolute;
     height: 100px;
     width:100px;
-    /* border: 1px solid white; */
     right: -25px;
 }
 .adaptive-star-img{
@@ -62,27 +57,23 @@
     top:15%;
     height:auto;
     width:100vw;
-    /* border: 1px solid white; */
 }
 
 .adaptive-road-img{
     height:100%;
     width: 100%;
-    /* border: 1px solid white; */
 
 }
 
 
 @media screen and (max-width: 710px) {
     .adaptive-learn{
-        /* border: 1px solid yellow; */
         height: max-content;
     }
     .adaptive-learn-main{
         position: relative;
         right:0;
         top:0;
-        /* border:1px solid red; */
         margin-inline: 12px;
         margin-bottom: 20px;
     }
@@ -101,7 +92,6 @@
     .adaptive-road-container{
         width: 100vw;
         height: auto;
-        /* border: 1px solid white; */
         position: relative;
         left:0;
         top:0;

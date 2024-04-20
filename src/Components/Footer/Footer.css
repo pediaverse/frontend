@@ -45,6 +45,9 @@
 .footer-navigation{
     height: 50px;
     display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    flex-wrap: wrap;
     align-items: center;
     border-top: 0.8px solid #1A192D;
 }
@@ -52,9 +55,31 @@
 .footer-nav-list{
     display: flex;
     margin-inline: 20px;
+    /* border: 1px solid white; */
 }
 .footer-nav-list-item a{
     text-decoration: none;
     color:#28CD88;
     margin-inline: 10px;
+    /* border: 1px solid white; */
+}
+
+@media screen and (max-width:710px) {
+    .footer-navigation{
+        height:120px;
+        border-top: none;
+        /* flex-direction: column; */
+        /* margin-top: 5px; */
+    }
+    .footer-nav-list{
+        /* display: block; */
+        flex-direction: column;
+        justify-content: space-between;
+        padding-inline: 12px;
+        height: 100%;
+        /* margin-top: 12px; */
+    }
+    .footer-nav-list-item a{
+        padding-top: 5px;
+    }
 }

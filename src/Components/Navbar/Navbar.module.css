@@ -41,3 +41,21 @@
 .navbar-free-trial:hover{
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 710px){
+    .navbar{
+        background-color: transparent;
+    }
+    .navbar-logo-container{
+        margin-left: 12px;
+        width:89px;
+        height: 28px;
+    }
+    .navbar-free-trial{
+        font-size: 14px;
+        height: 48px;
+        width:124px;
+        margin-right: 12px;
+    }
+}
